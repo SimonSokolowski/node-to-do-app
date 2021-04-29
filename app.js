@@ -13,7 +13,7 @@ todoController(app);
 
 //Get website pages
 app.get("/", function(req, res){
-    res.render(home);
+    res.render("home");
 });
 
 //listen to port
